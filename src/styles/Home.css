@@ -364,14 +364,14 @@ select:-webkit-autofill {
 	font-family: Raleway, sans-serif;
 	border-bottom: 2px solid var(--pastel-purple);
 	text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-	top: -5vh;
+	top: 5vh;
 }
 .TechSkill_techSkillBox__vP_Fq
 	.TechSkill_techTitleBox__OmRCk
 	.TechSkill_techPara__B8zn8 {
 	position: relative;
 	font-family: Raleway, sans-serif;
-	top: -5vh;
+	top: 5vh;
 	color: #cfcfcf;
 }
 .TechSkill_techSkillBox__vP_Fq .TechSkill_techLinkBox__ru9mo {
@@ -384,7 +384,7 @@ select:-webkit-autofill {
 }
 @media (min-width: 650px) {
 	.TechSkill_techSkillBox__vP_Fq .TechSkill_techLinkBox__ru9mo {
-		margin: 5vh 0 15vh;
+		margin: 15vh 0 15vh;
 	}
 }
 .TechSkill_techSkillBox__vP_Fq .TechSkill_techLinkBox__ru9mo a {

@@ -240,7 +240,7 @@ export default function Home() {
 							desarrollo de software.
 						</p>
 						<p className="AboutMe_textPresentation2__dQBiS">
-							me considero una persona creativa e innovadora, poniendo como
+							Me considero una persona creativa e innovadora, poniendo como
 							principal característica la flexibilidad y la iniciativa para
 							investigar y adaptarme a las nuevas tecnologías, estoy en
 							constante aprendizaje y evolucionando como desarrollador en cada
@@ -598,7 +598,7 @@ export default function Home() {
 						<div className="MyProjects_titleBox__NKvvd">
 							<h3>Infinity</h3>
 							<p className="MyProjects_paraTech__o303V">
-								React, Redux, Css, Scss, Swiper
+								React, Redux, Css, Swiper
 							</p>
 						</div>
 					</a>
