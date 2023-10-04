@@ -34,10 +34,9 @@ import share_it_3 from "../../styles/multimedia/share-it/3.png";
 import share_it_4 from "../../styles/multimedia/share-it/4.png";
 import share_it_5 from "../../styles/multimedia/share-it/5.png";
 
-import infinity_1 from "../../styles/multimedia/infinity/1.png";
-import infinity_2 from "../../styles/multimedia/infinity/2.png";
-import infinity_3 from "../../styles/multimedia/infinity/3.png";
-import infinity_4 from "../../styles/multimedia/infinity/4.png";
+import videoInfinity from "../../styles/multimedia/infinity/2023-10-04 10-53-25.mp4";
+
+import videoL2Rossek from "../../styles/multimedia/L2Rossek/2023-10-04 11-47-21.mp4";
 
 /* ----------- -+-+-+-+-+-+- --------------- */
 
@@ -570,16 +569,17 @@ export default function Home() {
 					<div className="MyProjects_myProjectsTitle__Rlqqc">
 						<h2>Mis Proyectos</h2>
 					</div>
-					<a
-						className="MyProjects_eachProject__h6ebv"
-						id="project"
-						href="https://lineage2infinity.com/highfive/Home"
-					>
+					<a className="MyProjects_eachProject__h6ebv" id="project" href="/">
 						<div className="MyProjects_imgBox__VQ5C_">
-							<img
+							<video
 								alt="erro"
 								sizes="100vw"
-								src={(infinity_1, infinity_2, infinity_3, infinity_4)}
+								src={videoInfinity}
+								type="video/mp4"
+								playsinline="playsinline"
+								muted="muted"
+								loop="loop"
+								autoplay="autoplay"
 								decoding="async"
 								data-nimg="fill"
 								loading="lazy"
@@ -629,11 +629,47 @@ export default function Home() {
 								}}
 							/>
 						</div>
+
 						<div className="MyProjects_titleBox__NKvvd">
 							<h3>Share It</h3>
 							<p className="MyProjects_paraTech__o303V">
 								ReactJs, NodeJs, Mercado Pago, Firebase
 							</p>
+						</div>
+					</a>
+					<a
+						className="MyProjects_eachProject__h6ebv"
+						id="project"
+						href="https://l2rossek.com/donate/index.html"
+					>
+						<div className="MyProjects_imgBox__VQ5C_">
+							<video
+								alt="erro"
+								sizes="100vw"
+								src={videoL2Rossek}
+								type="video/mp4"
+								playsinline="playsinline"
+								muted="muted"
+								loop="loop"
+								autoplay="autoplay"
+								decoding="async"
+								data-nimg="fill"
+								loading="lazy"
+								style={{
+									position: "absolute",
+									height: "100%",
+									width: "100%",
+									left: 0,
+									top: 0,
+									right: 0,
+									bottom: 0,
+									color: "transparent",
+								}}
+							/>
+						</div>
+						<div className="MyProjects_titleBox__NKvvd">
+							<h3>L2 Rossek</h3>
+							<p className="MyProjects_paraTech__o303V">HTML, CSS</p>
 						</div>
 					</a>
 				</div>
